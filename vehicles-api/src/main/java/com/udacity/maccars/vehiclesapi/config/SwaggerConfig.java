@@ -17,10 +17,7 @@ import java.util.Collections;
 
 @Configuration
 @EnableSwagger2
-@ApiResponses(value = {
-        @ApiResponse(code=400, message = "This is a bad request, please follow the API documentation."),
-        @ApiResponse(code=500, message = "The server is down.")
-})
+
 public class SwaggerConfig {
     //Method to add Swagger
     @Bean
