@@ -1,15 +1,5 @@
-Backend System for Car Website.
+<h1>Backend System for Car Website.</h1>
 
-Project repository for JavaND Project 2, where students implement a Vehicles API using Java and Spring Boot that can communicate with separate location and pricing services.
+<h4>I implemented a Vehicles API using Java and Spring Boot that can communicate with separate location and pricing services.<h4>
 
-Instructions
-Check each component to see its details and instructions. Note that all three applications should be running at once for full operation. Further instructions are available in the classroom.
-
-Vehicles API
-
-Pricing Service
-
-Boogle Maps
-
-Dependencies
-The project requires the use of Maven and Spring Boot, along with Java v11.
+<4>In the project I use of <b>Maven</b>, <b>Spring Boot</b>, <b>Swagger</b> along with <b>Java v11</b>.
