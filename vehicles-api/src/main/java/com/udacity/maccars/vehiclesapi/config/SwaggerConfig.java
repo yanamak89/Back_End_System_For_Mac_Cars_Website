@@ -1,9 +1,11 @@
 package com.udacity.maccars.vehiclesapi.config;
 
+import com.google.common.base.Predicate;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import springfox.documentation.RequestHandler;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -17,28 +19,33 @@ import java.util.Collections;
 
 @Configuration
 @EnableSwagger2
-
 public class SwaggerConfig {
     //Method to add Swagger
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.any())
-                .paths(PathSelectors.any())
+                .apis((Predicate<RequestHandler>) RequestHandlerSelectors.any())
+                .paths((Predicate<String>) PathSelectors.any())
                 .build()
+                .apiInfo(apiInfo())
                 .useDefaultResponseMessages(false);
     }
 
-    //Contact info about API
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "Mac-cars REST API",
-                "This API returns a vehicles, prices and addresses.",
+                "Vehicle REST API",
+                "This API Returns a list of vehicles and their information.",
                 "1.0",
-                "http://www.udacity.com/tos",
-                new Contact("Yana Makogon", "www.udacity.com", "yana_makogon@udacity.com"),
-                "License of API", "http://www.udacity.com/license", Collections.emptyList());
+                "http://www.vehicleapi.com/",
+                new Contact(
+                        "Udacious Student",
+                        "www.vehicleapi.com",
+                        "joanperezl123@gmail.com"),
+                "License of API",
+                "http://www.udacity.com/license",
+                Collections.emptyList()
+        );
     }
 
 }
