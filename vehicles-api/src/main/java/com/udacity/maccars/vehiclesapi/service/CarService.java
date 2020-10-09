@@ -16,6 +16,7 @@ public class CarService {
     private final CarRepository repository;
     private final MapsClient mapsClient;
     private final PriceClient priceClient;
+    private Long id;
 
     public CarService(CarRepository repository, MapsClient mapsClient, PriceClient priceClient) {
         this.repository = repository;

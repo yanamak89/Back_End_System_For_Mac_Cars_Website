@@ -3,7 +3,6 @@ package com.udacity.maccars.vehiclesapi.client.maps;
 
 import java.util.Objects;
 
-import com.udacity.maccars.vehiclesapi.client.maps.MapsClient;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
