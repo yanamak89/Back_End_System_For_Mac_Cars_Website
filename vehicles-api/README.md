@@ -28,8 +28,6 @@ Create a Vehicle
 POST /cars
 
 ```
-code block
-```
 {
    "condition":"USED",
    "details":{
@@ -53,28 +51,20 @@ code block
    }
 }
 ```
-code block
-```
+
 Retrieve a Vehicle
-```
-code block
 ```
 GET /cars/{id}
 ```
-code block
-```
+
 This feature retrieves the Vehicle data from the database and access the Pricing Service and Boogle Maps to enrich the Vehicle information to be presented
 
 Update a Vehicle
 ```
-code block
-```
 PUT /cars/{id}
+
 ```
-code block
-```
-```
-code block
+
 ```
 {
    "condition":"USED",
@@ -99,13 +89,10 @@ code block
    }
 }
 ```
-code block
-```
+
+
 Delete a Vehicle
-```
-code block
 ```
 DELETE /cars/{id}
 ```
-code block
-```
+
