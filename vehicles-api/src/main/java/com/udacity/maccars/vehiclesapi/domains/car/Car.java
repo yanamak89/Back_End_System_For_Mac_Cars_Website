@@ -1,7 +1,7 @@
-package com.udacity.maccars.vehiclesapi.models.car;
+package com.udacity.maccars.vehiclesapi.domains.car;
 
-import com.udacity.maccars.vehiclesapi.models.Condition;
-import com.udacity.maccars.vehiclesapi.models.Location;
+import com.udacity.maccars.vehiclesapi.domains.Condition;
+import com.udacity.maccars.vehiclesapi.domains.Location;
 import java.time.LocalDateTime;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;

@@ -1,6 +1,6 @@
-package com.udacity.maccars.vehiclesapi.models.car;
+package com.udacity.maccars.vehiclesapi.domains.car;
 
-import com.udacity.maccars.vehiclesapi.models.manufacturer.Manufacturer;
+import com.udacity.maccars.vehiclesapi.domains.manufacturer.Manufacturer;
 import javax.persistence.Embeddable;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotBlank;

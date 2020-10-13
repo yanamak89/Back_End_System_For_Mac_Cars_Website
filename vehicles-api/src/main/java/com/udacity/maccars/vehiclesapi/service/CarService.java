@@ -2,9 +2,9 @@ package com.udacity.maccars.vehiclesapi.service;
 
 import com.udacity.maccars.vehiclesapi.client.maps.MapsClient;
 import com.udacity.maccars.vehiclesapi.client.prices.PriceClient;
-import com.udacity.maccars.vehiclesapi.models.Location;
-import com.udacity.maccars.vehiclesapi.models.car.Car;
-import com.udacity.maccars.vehiclesapi.models.car.CarRepository;
+import com.udacity.maccars.vehiclesapi.domains.Location;
+import com.udacity.maccars.vehiclesapi.domains.car.Car;
+import com.udacity.maccars.vehiclesapi.domains.car.CarRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

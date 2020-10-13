@@ -1,8 +1,8 @@
-package com.udacity.maccars.vehiclesapi.models;
+package com.udacity.maccars.vehiclesapi.domains;
 
+import com.sun.istack.NotNull;
 import javax.persistence.Embeddable;
 import javax.persistence.Transient;
-import javax.validation.constraints.NotNull;
 
 /**
  * Stores information about a given location

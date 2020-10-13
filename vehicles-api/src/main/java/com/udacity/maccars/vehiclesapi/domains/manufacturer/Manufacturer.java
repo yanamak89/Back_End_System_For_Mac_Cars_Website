@@ -1,4 +1,4 @@
-package com.udacity.maccars.vehiclesapi.models.manufacturer;
+package com.udacity.maccars.vehiclesapi.domains.manufacturer;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

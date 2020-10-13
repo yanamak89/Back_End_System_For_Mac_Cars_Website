@@ -1,6 +1,6 @@
 package com.udacity.maccars.vehiclesapi.api;
 
-import com.udacity.maccars.vehiclesapi.models.car.Car;
+import com.udacity.maccars.vehiclesapi.domains.car.Car;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.ResourceAssembler;
 import org.springframework.stereotype.Component;

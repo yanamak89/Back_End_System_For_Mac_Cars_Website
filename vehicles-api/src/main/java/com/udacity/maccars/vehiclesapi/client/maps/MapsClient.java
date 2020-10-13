@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import javax.xml.stream.Location;
+import com.udacity.maccars.vehiclesapi.domains.Location;
 /**
  * Implements a class to interface with the Maps Client for location data.
  */

@@ -1,4 +1,4 @@
-package com.udacity.maccars.vehiclesapi.models.car;
+package com.udacity.maccars.vehiclesapi.domains.car;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -4,7 +4,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 
-import com.udacity.maccars.vehiclesapi.models.car.Car;
+import com.udacity.maccars.vehiclesapi.domains.car.Car;
 import com.udacity.maccars.vehiclesapi.service.CarService;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -18,7 +18,6 @@ import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.Resources;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
